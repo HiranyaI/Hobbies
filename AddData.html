@@ -16,6 +16,19 @@
                 align-items: center;
                 text-align: center;
             }
+            .submitb{
+                color: aliceblue;
+                border-radius: 10px;
+                background: darkblue;
+                height: 40px;
+                width: 80px;
+            }
+            .submitb :hover{
+                color:darkblue;
+                background: lightblue;
+                height: 45px;
+                width: 85px;
+            }
 
         </style>
     </head>
@@ -25,13 +38,14 @@
             <form>
                 <p>Username : <input type="text" placeholder="Username" required></p>
                 <p>Email : <input type="email" placeholder="E-mail" required></p>
+                <p>Password : <input type="password" placeholder="Password"></p>
                 <p>Phone : <input type="text" placeholder="Mobile" required></p>
                 <p>Phone : <input type="text" placeholder="Home"></p>
                 <p>Hobby 1 : <input type="text" placeholder="Hobby"></p>
                 <p>Hobby 2 : <input type="text" placeholder="Hobby"></p>
                 <p>Hobby 3 : <input type="text" placeholder="Hobby"></p>
                 <br>
-                <input type="submit">
+                <input type="submit" class="submitb">
             </form>
         </fieldset>
     </body>
