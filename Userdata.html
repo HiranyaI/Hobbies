@@ -16,15 +16,15 @@
                 height: auto;
                 
             }
-            button{
+            h1{
+                text-align: center;
+            }
+            .submitb{
                 color: aliceblue;
                 border-radius: 10px;
                 background: darkblue;
                 height: 50px;
                 width: 100px;
-            }
-            h1{
-                text-align: center;
             }
             
         </style>
@@ -34,9 +34,15 @@
         <h1>Options</h1>
         <fieldset>
             <br>
-            <button>View List</button><br><br>
-            <button>Add User</button><br><br>
-            <button>Edit Users</button><br><br>
+            <form action="./AddData.html" >
+                <input type="submit" value="Add User" class="submitb">
+            </form><br>
+            <form action="./AddData.html">
+                <input type="submit" value="View List" class="submitb">
+            </form><br>
+            <form action="./AddData.html">
+                <input type="submit" value="Edit User" class="submitb">
+            </form><br>
         </fieldset>
     </body>
 </html>
